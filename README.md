@@ -18,7 +18,7 @@ The following Alexa capabilities were implemented (with some limitations, see Li
 * [Node.js](https://nodejs.org/en/) - Ensure at least 9.3.0 Node.js is installed. I used [audstanley's](http://www.audstanley.com/) scripts at  [NodeJs-Raspberry-Pi ](https://github.com/audstanley/NodeJs-Raspberry-Pi/) to install the latest Node.js. Follow the README.md for instructions on using his script.
 
 ## Installation
-This installation assumes you have followed my Instructable [placeholder till i get the instructable up] to have the following setup:
+This installation assumes you have followed my [Instructable](https://www.instructables.com/id/Alexa-LIRC-Entertainment-Remote) to have the following setup:
 * An AWS IOT Thing to connect to.
 * Setup LIRC for at least one controller software wise.
 * Setup LIRC hardware wise on your Raspberry Pi Zero W (IR LED hooked up and working).
