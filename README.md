@@ -148,42 +148,42 @@ Here is my try at the schema for the configuration file, hopefully it makes sens
         "type": "object",
         "properties": {
           "host": {
-            "description": "Your AWS IOT Endpoint address"
+            "description": "Your AWS IOT Endpoint address",
             "type": "string",
             "required": true
           },
           "port": {
-            "description": "Port for your AWS IOT Thing"
+            "description": "Port for your AWS IOT Thing",
             "type": "integer",
             "required": true
           },
           "keyPath": {
-            "description": "Path to your private key to connect to your AWS IOT Thing"
+            "description": "Path to your private key to connect to your AWS IOT Thing",
             "type": "string",
             "required": true
           },
           "certPath": {
-            "description": "Path to your certificate to connect to your AWS IOT Thing"
+            "description": "Path to your certificate to connect to your AWS IOT Thing",
             "type": "string",
             "required": true
           },
           "caPath": {
-            "description": "Path to the root certificate authority cert that issued your private key and certficate."
+            "description": "Path to the root certificate authority cert that issued your private key and certficate.",
             "type": "string",
             "required": true
           },
           "clientId": {
-            "description": "Your AWS IOT Thing clientId"
+            "description": "Your AWS IOT Thing clientId",
             "type": "string",
             "required": true
           },
           "thingName": {
-            "description": "Your AWS IOT Thing name (should be same as clientId)"
+            "description": "Your AWS IOT Thing name (should be same as clientId)",
             "type": "string",
             "required": true
           },
           "region": {
-            "description": "The region your AWS IOT Endpoint resides."
+            "description": "The region your AWS IOT Endpoint resides.",
             "type": "string",
             "required": true
           },
@@ -198,7 +198,7 @@ Here is my try at the schema for the configuration file, hopefully it makes sens
           "properties": {
             "device":{
               "description": "Name of LIRC device.",
-              "type": "string"
+              "type": "string",
               "required": true
             },
             "keyMap": {
