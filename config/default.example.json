@@ -1,0 +1,38 @@
+{
+  "awsIotDevice": {
+    "host": "xxxxxxxxxxxxxx.iot.region.amazonaws.com",
+    "port": 8883,
+    "keyPath": "./certs/private.pem.key",
+    "certPath": "./certs/certificate.pem.crt",
+    "caPath": "./certs/root-ca.pem",
+    "clientId": "UniversalRasPiRemote",
+    "thingName": "UniversalRasPiRemote",
+    "region": "region"
+  },
+  "remoteDevice":{
+    "RasPi-TV-001": {
+      "device": "LivingRoomTv",
+      "keyMap": {
+        "TurnOn": "KEY_POWER",
+        "TurnOff": "KEY_POWER",
+        "ChangeChannel": "KEY_",
+        "SkipChannels UP": "KEY_CHANNEL_UP",
+        "SkipChannels DOWN": "KEY_CHANNEL_DOWN",
+        "SelectInput": "KEY_SOURCE",
+        "AdjustVolume DOWN": "KEY_VOLUME_DOWN",
+        "AdjustVolume UP": "KEY_VOLUME_UP",
+        "SetMute": "KEY_MUTE"
+      }
+    },
+    "RasPi-Cable-001": {
+      "device": "CableBox",
+      "keyMap": {
+        "TurnOn": "KEY_POWER",
+        "TurnOff": "KEY_POWER",
+        "ChangeChannel": "KEY_",
+        "SkipChannels UP": "KEY_CHANNEL_UP",
+        "SkipChannels DOWN": "KEY_CHANNEL_DOWN"
+      } 
+    }
+  }
+}

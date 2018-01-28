@@ -1,0 +1,25 @@
+{
+  "name": "alexalirc",
+  "version": "0.1.0",
+  "description": "Amazon Alexa Node.js frontend for LIRC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbtinkerer/AlexaLirc.git"
+  },
+  "author": "bbtinkerer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bbtinkerer/AlexaLirc/issues"
+  },
+  "homepage": "https://github.com/bbtinkerer/AlexaLirc#readme",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.0",
+    "child_process": "^1.0.2",
+    "config": "^1.29.2",
+    "sleep": "^5.1.1"
+  }
+}

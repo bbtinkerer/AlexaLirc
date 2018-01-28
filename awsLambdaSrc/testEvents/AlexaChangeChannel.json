@@ -1,0 +1,27 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.ChannelController",
+      "name": "ChangeChannel",
+      "payloadVersion": "3",
+      "messageId": "8136999f-7958-4c47-be00-f7dbf14b60dd",
+      "correlationToken": "blahblahblahtokenyadayadayaa"
+    },
+    "endpoint": {
+      "scope": {
+        "type": "BearerToken",
+        "token": "Atza|somereallynonsensicalstring"
+      },
+      "endpointId": "RasPi-LED-001",
+      "cookie": {
+        "iotEndpoint": "xxxxxxxxxxxxxx.iot.us-east-1.amazonaws.com"
+      }
+    },
+    "payload": {
+      "channel": {},
+      "channelMetadata": {
+        "name": "cartoon network"
+      }
+    }
+  }
+}

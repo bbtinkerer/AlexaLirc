@@ -1,0 +1,24 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.StepSpeaker",
+      "name": "SetMute",
+      "payloadVersion": "3",
+      "messageId": "637cbc8e-9506-4e5d-97a0-c746a7f2d3c6",
+      "correlationToken": "blahblahblahtokenyadayadayaa"
+    },
+    "endpoint": {
+      "scope": {
+        "type": "BearerToken",
+        "token": "Atza|somereallynonsensicalstring"
+      },
+      "endpointId": "RasPi-TV-001",
+      "cookie": {
+        "iotEndpoint": "xxxxxxxxxxxxxx.iot.us-east-1.amazonaws.com"
+      }
+    },
+    "payload": {
+      "mute": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.StepSpeaker",
+      "name": "AdjustVolume",
+      "payloadVersion": "3",
+      "messageId": "6a6bb3c3-366f-459b-b027-f9154fd2a459",
+      "correlationToken": "blahblahblahtokenyadayadayaa"
+    },
+    "endpoint": {
+      "scope": {
+        "type": "BearerToken",
+        "token": "Atza|somereallynonsensicalstring"
+      },
+      "endpointId": "RasPi-TV-001",
+      "cookie": {
+        "iotEndpoint": "xxxxxxxxxxxxxx.iot.us-east-1.amazonaws.com"
+      }
+    },
+    "payload": {
+      "volumeSteps": 10,
+      "volumeStepsDefault": true
+    }
+  }
+}

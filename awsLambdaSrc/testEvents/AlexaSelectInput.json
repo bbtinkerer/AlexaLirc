@@ -1,0 +1,24 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.InputController",
+      "name": "SelectInput",
+      "payloadVersion": "3",
+      "messageId": "2ba6b6f1-6595-4153-ac43-e9a051d1b5e7",
+      "correlationToken": "blahblahblahtokenyadayadayaa"
+    },
+    "endpoint": {
+      "scope": {
+        "type": "BearerToken",
+        "token": "Atza|somereallynonsensicalstring"
+      },
+      "endpointId": "RasPi-TV-001",
+      "cookie": {
+        "iotEndpoint": "xxxxxxxxxxxxxx.iot.us-east-1.amazonaws.com"
+      }
+    },
+    "payload": {
+      "input": "HDMI"
+    }
+  }
+}

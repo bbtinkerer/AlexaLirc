@@ -1,0 +1,5 @@
+Place your certs in here.
+For less modifying of the confguratin file rename your certificate files:
+Private Key: private.pem.key
+AWS IOT Certificate:  certificate.pem.crt
+Root Certificate: root-ca.pem

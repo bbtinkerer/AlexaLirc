@@ -1,0 +1,22 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.PowerController",
+      "name": "TurnOn",
+      "payloadVersion": "3",
+      "messageId": "13004f3b-57ea-4a0a-83f2-ba439892189e",
+      "correlationToken": "blahblahblahtokenyadayadayaa"
+    },
+    "endpoint": {
+      "scope": {
+        "type": "BearerToken",
+        "token": "Atza|somereallynonsensicalstring"
+      },
+      "endpointId": "RasPi-TV-001",
+      "cookie": {
+        "iotEndpoint": "xxxxxxxxxxxxxx.iot.us-east-1.amazonaws.com"
+      }
+    },
+    "payload": {}
+  }
+}

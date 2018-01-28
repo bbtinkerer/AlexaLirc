@@ -1,0 +1,24 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.ChannelController",
+      "name": "SkipChannels",
+      "payloadVersion": "3",
+      "messageId": "4805f0fe-f468-4b35-a3a2-f5d8648153e2",
+      "correlationToken": "blahblahblahtokenyadayadayaa"
+    },
+    "endpoint": {
+      "scope": {
+        "type": "BearerToken",
+        "token": "Atza|somereallynonsensicalstring"
+      },
+      "endpointId": "RasPi-TV-001",
+      "cookie": {
+        "iotEndpoint": "xxxxxxxxxxxxxx.iot.us-east-1.amazonaws.com"
+      }
+    },
+    "payload": {
+      "channelCount": 1
+    }
+  }
+}

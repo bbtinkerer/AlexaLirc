@@ -1,0 +1,27 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.ChannelController",
+      "name": "ChangeChannel",
+      "payloadVersion": "3",
+      "messageId": "05861e9c-eebf-4336-b09f-7447a16231aa",
+      "correlationToken": "blahblahblahtokenyadayadayaa"
+    },
+    "endpoint": {
+      "scope": {
+        "type": "BearerToken",
+        "token": "Atza|somereallynonsensicalstring"
+      },
+      "endpointId": "RasPi-TV-001",
+      "cookie": {
+        "iotEndpoint": "xxxxxxxxxxxxxx.iot.us-east-1.amazonaws.com"
+      }
+    },
+    "payload": {
+      "channel": {
+        "number": "1440"
+      },
+      "channelMetadata": {}
+    }
+  }
+}
